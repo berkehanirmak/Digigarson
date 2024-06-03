@@ -1,0 +1,410 @@
+.box {
+    width: 70%; 
+    margin: 50px auto; 
+    padding: 20px; 
+    border-radius: 10px; 
+    text-align: center; 
+    background: #050328;
+  }
+
+  /* Başlık  */
+  .box h2 {
+    color: #fff; 
+    font-size: 24px; 
+    background-color: purple;
+    border-radius: 0 8px 0 8px;
+    padding: 10px;
+  }
+
+  /* Alt başlık  */
+  .box h3 {
+    color: #fff; 
+    font-size: 40px; 
+  }
+
+  /* Paragraf  */
+  .box p {
+    color: #ffffff; 
+    font-size: 16px;
+    line-height: 1.8; 
+  }
+  .technologies {
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .technologies h3 {
+    color: #fcfcfc;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .technologies ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .technologies li {
+    margin-bottom: 15px;
+  }
+  
+  .technologies li p {
+    margin-left: 30px;
+  }
+
+  
+  /* tecrübelerimiz alanı */
+  .experience {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .experience h1 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .metrics-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .metric {
+    background-color: #150442;
+    border-radius:0 40px 0 40px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.6s ease;
+    flex: 1; 
+    max-width: 250px; 
+  }
+  
+  .metric:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .metric h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .metric p {
+    font-size: 28px;
+    margin: 0;
+    color: #fff;
+    font-weight: bold;
+    text-align: center; 
+  }
+
+  /* our products alanı */
+  
+  .our-products {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .our-products h2 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 10px;
+    background: #5203a7;
+    border-radius: 20px 0 20px 0;
+  }
+  
+  .our-products h1 {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .our-products p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    max-width: 900px;
+  }
+  
+  .product-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .img-container {
+    width: calc(33.33% - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .img-container:nth-child(odd) {
+    transform: translateY(25px);
+  }
+  
+  .product-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 40px 0 40px 0;
+    transition: transform 0.6s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-images img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .img-container {
+      width: calc(50% - 10px);
+    }
+  
+    .img-container:nth-child(odd) {
+      transform: translateY(15px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .img-container {
+      width: 100%;
+    }
+  
+    .img-container:nth-child(odd) {
+      transform: translateY(10px);
+    }
+  }
+
+
+  
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(135deg, rgb(22, 1, 70));
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.707);
+    margin: 20px 50px;
+    color: #fff;
+  }
+  
+  .content2 {
+    max-width: 45%;
+  }
+  
+  .content2 h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    background: rgba(201, 3, 219, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .content2 h2 {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .content2 p {
+    font-size: 18px;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+  }
+  
+  .sendMail {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sendMail input {
+    padding: 12px 15px;
+    width: 100%;
+    max-width: 300px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+  }
+  
+  .sendMail button {
+    padding: 13px 14px;
+    background-color: #5203a7;
+    border: none;
+    transition: 0.5s;
+    border-radius: 0 4px 4px 0;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sendMail button:hover {
+    background-color: #370275;
+  }
+  
+  .image2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .container2 {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .content2 {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .sendMail input {
+      max-width: 100%;
+    }
+  
+    .image2 img {
+      max-width: 100%;
+    }
+  }
+
+
+  /* container3 */
+ 
+.container3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #050328;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.content3 {
+  flex: 1;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.content3 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.content3 li {
+  margin-bottom: 15px;
+  position: relative;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #1e1e5b;
+  transition: background-color 0.3s ease;
+}
+
+.content3 li:hover {
+  background-color: #2d2d7b;
+}
+
+.content3 .title {
+  font-size: 21px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.content3 p {
+  font-size: 20px;
+  color: #fff;
+  margin: 10px 0 0 0;
+  max-height: 0;
+  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.content3 li.active p {
+  max-height: 200px;
+  padding: 10px 0 0 0;
+}
+
+.image3 {
+  flex: 0 0 300px;
+}
+
+.image3 img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 0 15px 0;
+}
+
+
+/* scroll */
+.scrollTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+}
+
+.scrollTop:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.scrollTop svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* 
+whatsapp */
+.whatsapp-button {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  background-color: #25d366;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+}
+
+.whatsapp-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
